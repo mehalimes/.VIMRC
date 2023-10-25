@@ -59,5 +59,6 @@ autocmd filetype cpp nnoremap <F5> :w <bar> !g++ -std=c++17 -O2 -Wall % -o %:r &
 " gvim --version
 
 " _vimrc dosyasi yoksa C:/Users/User/_vimrc da yeni bir tane olusturabilirsin.
+" if there is not _vimrc file you can create a new one in C:/Users/User/_vimrc
 
 " -std=c++11 yaparsin.
